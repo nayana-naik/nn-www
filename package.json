@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cross-env NODE_OPTIONS='Hello2' node index.js"
+    "start": "node ./node_modules/cross-env/src/bin/cross-env-shell.js NODE_OPTIONS='Hello2' node index.js"
   },
   "author": "",
   "license": "ISC",
